@@ -108,13 +108,13 @@ function startMatch(){
         scoreDisplay.innerHTML = score;
     }
 
-  if(score >= 4 && score < 7){
+ if(score >= 4 && score < 7){
         currentLevel = levels.medium;
         message2.innerText = 'Medium!';
-    } else if(score >=8 && score < 10){
+    } else if(score >=7 && score < 10){
         currentLevel = levels.hard;
         message2.innerText = 'Hard!!';
-    } else if(score > 11){
+    } else if(score >= 10){
         currentLevel = levels.superstar;
         message2.innerText = 'SuperStar!!!!';
     } else{
